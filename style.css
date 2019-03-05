@@ -1,0 +1,31 @@
+#html{
+  font-family: "Raleway light", Calibri, sans-serif; 
+}
+
+#nav ul {
+    color:black;
+    list-style-type:none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+#nav ul li {
+    margin: 0 15px;
+    display: inline-block;
+}
+#nav ul li a {
+    clear: left;   
+    text-decoration: none;
+    color: darkgray;
+    font-size: 18px;
+    padding: 20px;
+}
+#nav ul li a:hover{
+    color: black;
+}
+footer{
+    color:darkgray;
+    text-decoration: none;
+    margin: 0 1em;
+    clear: left;
+}
