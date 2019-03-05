@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Giovanni Centeno</title>
+   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+   <link rel="stylesheet" type="text/css" href="css/style.css" />
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+   <div id= wrapper>
+      <section id= "title">
+         <h1>Giovanni Centeno.</h1>
+      </section>
+      <header id="intronav">
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a> 
+               <li><a href="resume.html">Resume</a></li> 
+               <li><a href="portfolio.html">Portfolio</a></li> 
+               <li><a href="bio.html">About Me</a></li>
+            </ul>        
+         </nav>
+      </header>
+      <section id="light">
+           <img src="media/light.png"  onclick="lightoff()" alt="lightbulb drawing"> 
+      </section>    
+      <section id="contact">	
+         <p>gcenteno1@hawk.iit.edu</p>
+      </section>
+      <section id="linkedin">
+         <p><a href="https://www.linkedin.com/">Let's connect on linkedin</a></p>
+      </section>
+   </div>   
+   <script type="text/javascript">
+    function lightoff(){
+    document.body.style.backgroundColor = "black";
+    document.getElementById("light").src= "media/lightcopy.png";
+    document.getElementById("title").style.color = "white";
+   }
+   </script> 
+</body>
+</html>
