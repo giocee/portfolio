@@ -31,3 +31,73 @@ footer{
     margin: 0 1em;
     clear: left;
 }
+/* start index page*/
+
+#intronav ul {
+    color:black;
+    float: left;
+    font-family: "Raleway light", Calibri, sans-serif; 
+    list-style-type:none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+#intronav ul li {
+    margin: 0 15px;
+    float: left;
+}
+#intronav ul li a {
+    display: block;
+    clear: left;   
+    text-decoration: none;
+    color: darkgray;
+    font-size: 18px;
+    padding: 0 15px;
+}
+#intronav ul li a:hover{
+    color: black;
+}
+#wrapper{
+    width: 960px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0;
+}
+#title{
+    color:black;
+    font-size: 2.5em;
+    margin: 1.5em 1em;
+    width: 25%;
+    font-family: "Raleway ", Calibri, sans-serif; 
+    font-weight: inherit;
+}
+#light{
+    float: right;
+    position: relative;
+    margin: 0;
+    bottom: 300px;
+    right: 395px; 
+}
+#contact{
+    color:black;
+    font-family: "Raleway", Calibri, sans-serif;
+    padding: 1em;
+    margin: 1em 1em;
+    position: absolute;
+    top: 48%;
+    left: 3.5%;
+    vertical-align: baseline;
+}
+#linkedin a{
+    color:darkgray;
+    font-family: "Raleway", Calibri, sans-serif; 
+    text-decoration: none;
+    padding: 1em;
+    margin: 1em 1em;
+    position: absolute;
+    top: 55%;
+    left: 3.5%;
+}
+#linkedin a:hover{
+    color: black;
+}
+/* end of index page*/
